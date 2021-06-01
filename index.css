@@ -1,0 +1,49 @@
+#fnombre, #mensaje{
+    border-style: double;
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    border-width: 15px;
+}
+#comentario{
+    list-style: none;
+
+}
+
+.erroneo{
+    border: red;
+}
+
+.correcto{
+    border: none;
+}
+label{
+    font-size:25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blueviolet;
+    margin-top: 15px;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:21px;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:10px 35px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+    margin-top: 10px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
